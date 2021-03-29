@@ -1,0 +1,16 @@
+<tabs tabs="{{tabs}}" bindtabschange="tabschange" >
+ <view class="firsttab">
+  <navigator class="gooditem"
+      wx:for="{{collect}}"
+      wx:key='goods_id'
+      url="/pages/goods_detail/index?goods_id={{item.goods_id}}"> 
+        <view class='goodimg'>
+          <image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'http://image1.suning.cn/uimg/b2c/newcatentries/0000000000-000000000606020881_1_400x400.jpg'}}"></image>
+        </view>
+        
+        <view class="goodinfo">
+         <view class="goodname">{{item.goods_name}}</view>
+         <view class="goodprice">{{item.goods_price}}</view>
+        </view>
+      </navigator></view>
+</tabs>

@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+  height: calc(100vh - 90rpx);
+
+}
+.left{
+  flex: 2;
+  /* background-color: aqua; */
+}
+.cates{
+  height: 100%;
+}
+.right{
+  flex: 5;
+  /* background-color:lawngreen; */
+}
+page{
+  height: 100%;
+}
+.leftlist{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.right .goodslist{
+display: flex;
+flex-wrap: wrap;
+}
+.right .goodslist navigator{
+ width: 33.33%;
+ text-align: center;
+  }
+  .right .goodslist navigator image{
+  
+    width: 50%;
+     }
+.goodtitle{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  padding: 0 10rpx;
+}
+.active{
+  color: var(--themeColor);
+  border-left: 5rpx solid currentColor;
+}

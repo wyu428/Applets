@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dab87c00-9a92-4de0-9755-0f40a2566920" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gWcwPiDl6ALktBni1xRUpt4TtO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dab87c00-9a92-4de0-9755-0f40a2566920" name="Default Changelist" comment="" />
+      <created>1598234026537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598234026537</updated>
+      <workItem from="1598234028165" duration="2666000" />
+      <workItem from="1598236998668" duration="630000" />
+      <workItem from="1598237637667" duration="417000" />
+      <workItem from="1598238062418" duration="879000" />
+      <workItem from="1598490874623" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598238053577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1598238053577" />
+    <state x="543" y="153" key="FileChooserDialogImpl" timestamp="1598238042903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598238042903" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1598237596716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598237596716" />
+  </component>
+</project>

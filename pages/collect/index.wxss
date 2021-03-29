@@ -1,0 +1,33 @@
+.firsttab .gooditem{
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+  
+  }
+   .goodimg{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .firsttab .gooditem .goodinfo{
+    flex:3;
+  }
+  .firsttab .gooditem .goodimg image{
+    width: 70%;
+  }
+  .goodinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .goodname{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .goodprice{
+    color: var(--themeColor);
+    font-size: 32rpx;
+  }

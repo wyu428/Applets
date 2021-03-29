@@ -1,0 +1,77 @@
+<view class="userinfowrap">
+<view class="img" wx:if="{{userinfo.avatarUrl}}" >
+<image class="imagebc" src="{{userinfo.avatarUrl}}"></image>
+<view class="userinfo">
+<image class="usericon" src="{{userinfo.avatarUrl}}"></image>
+<view class="username">{{userinfo.nickName}}</view>
+</view>
+</view>
+<view wx:else class="userbtn">
+  <navigator url="/pages/login/index">登陆</navigator>
+</view>
+</view>
+<view class="content">
+<view class="main">
+  <!-- 历史足迹 -->
+  <view class="collect">
+    <navigator class="collect_item">
+<view class="font">0</view>
+<view>收藏的店铺</view>
+    </navigator>
+    <navigator class="collect_item" url="/pages/collect/index">
+<view class="font">{{collectnum}}</view>
+<view>收藏的商品</view>
+    </navigator>
+    <navigator class="collect_item">
+<view class="font">0</view>
+<view>关注的商品</view>
+    </navigator>
+    <navigator class="collect_item">
+<view class="font">0</view>
+<view>我的足迹</view>
+    </navigator>
+  </view>
+<!-- 我的订单 -->
+<view class="order">
+
+  <view class="ordertitle">我的订单</view>
+  <view class="ordercontent">
+<navigator>
+  <view class="iconfont icon-danju"></view>
+  <view class="icontext">全部订单</view>
+</navigator>
+<navigator>
+  <view class="iconfont icon-danju"></view>
+  <view class="icontext">待付款</view>
+</navigator>
+<navigator>
+  <view class="iconfont icon-danju"></view>
+  <view class="icontext">待收货</view>
+</navigator>
+<navigator>
+  <view class="iconfont icon-danju"></view>
+  <view class="icontext">退款退货</view>
+</navigator>
+  </view>
+
+
+
+
+
+</view>
+<!-- 收货地址 -->
+<view  class="address">收货地址管理</view>
+<!-- 客服 -->
+<view class="app_info">
+  <view class="app_info_item    app_contact">
+    <view>联系客服</view>
+    <view>400-618-4000</view>
+  </view>
+  <view class="app_info_item">意见反馈</view>
+  <view class="app_info_item">关于我们</view>
+</view>
+<!-- 推荐 -->
+<view class="recommend">把应用推荐给他人</view>
+</view>
+</view>
+

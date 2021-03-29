@@ -1,0 +1,52 @@
+<view class="receive">
+  <view class="but" wx:if="{{!address.userName}}">
+    <button plain  bindtap="handlechoose"    type="primary">获取收货地址
+    </button>
+  </view>
+  <view wx:else class="userinfo">
+  <view class="info">
+  <view>收货人：{{address.userName}}</view>
+  <view>{{address.provinceName+address.cityName+address.countyName+address.detailInfo}}</view>
+</view>
+  <view class="phone">{{address.telNumber}}</view>
+  </view>
+</view>
+<view class="cart_content">
+  <view class="cartcar">购物车</view>
+ <view class="cartmain"> 
+  <block wx:if="{{cart.length!=0}}">
+    <view class="item" wx:for="{{cart}}"
+   wx:key="good_id">
+   
+   
+   <navigator  class="cartimage">
+     <image mode="widthFix" src="{{item.goods_small_logo}}"></image>
+   </navigator>
+   
+   <view class="cartinfo">
+     <view class="goodname">{{item.goods_name}}</view>
+     <view class="goodinfo">
+       <view class="price">{{item.goods_price}}</view>
+       <view class="num"> 
+        
+         <view class="goodnum">X{{item.number}}</view>
+        
+       </view>
+     </view>
+   </view>
+
+ </view>
+  </block>
+  
+</view>
+<view class="foottool">
+  
+  <view class="total">
+  合计：<text>￥{{totalprice}}</text>
+    <view>包含运费</view>
+  </view>
+  <view class="pay">
+<view bindtap="afford">支付({{totalnum}})</view>
+  </view>
+</view>
+</view>
